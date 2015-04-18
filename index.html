@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type='text/css' rel='stylesheet' href='css/pingpong.css'/>
+    </head>
+    <body>      
+    	<div id="main">
+    		<div id="canvasDiv">
+    			<p class="level">Select Level:
+	    			<select id="level" value="1">
+	    				<option value="1">One</option>
+	    				<option value="2">Two</option>
+	    				<option value="3">Three</option>
+	    				<option value="4">Four</option>
+	    				<option value="5">Five</option>
+	    				<option value="6">Six</option>
+	    				<option value="7">Seven</option>
+	    				<option value="8">Eight</option>
+	    				<option value="9">Nine</option>
+	    				<option value="10">Ten</option>
+	    				<option value="11">Eleven</option>
+	    				<option value="12">Twelve</option>
+	    				<option value="13">Thirteen</option>
+	    				<option value="14">Fourteen</option>
+	    				<option value="15">Fifteen</option>
+	    			</select>
+    			</p>
+    			<div class="level">Level: <span id="curLevel"></span></div>
+					<canvas id="canvas"></canvas>
+				</div>
+			</div>
+			<audio preload="true" id="collide">
+				<source src="sound/tick.wav" />
+			</audio>
+			<audio preload="true" id="crash">
+				<source src="sound/crash.wav" />
+			</audio>
+			<img src="images/embarrasing.jpg" id="embarrasing" class="hiddenImages" width="150px" height="150px">
+			<img src="images/nicetry.jpg" id="nicetry" class="hiddenImages" width="150px" height="150px">
+			<img src="images/trophy.jpg" id="trophy" class="hiddenImages" width="150px" height="150px">
+			<script src="js/pingpong.js"></script>
+    </body>
+
+</html>

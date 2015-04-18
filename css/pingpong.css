@@ -1,0 +1,22 @@
+#main {
+	width: 100%;
+}
+#canvasDiv {
+	padding: 0; 
+	width: 600px; 
+	height: 600px;
+	margin: 0 auto; 
+	overflow: hidden;
+}
+.level,select {
+	font-size: 15px;
+	color: #088A08;
+	font-family: cursive;
+}
+#pingpong{
+	display: none;
+}
+.hiddenImages {
+
+	display: none;
+}
